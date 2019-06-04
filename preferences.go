@@ -13,9 +13,9 @@ import (
 	"strconv"       //import for msisdn validation
 	"strings"
 
-	"github.com/hyperledger/fabric/core/chaincode/shim"         // import for Chaincode Interface
-	"github.com/hyperledger/fabric/core/chaincode/shim/ext/cid" // import for Client Identity
-	pb "github.com/hyperledger/fabric/protos/peer"              // import for peer response
+	"vendor/github.com/hyperledger/fabric/core/chaincode/shim"         // import for Chaincode Interface
+	"vendor/github.com/hyperledger/fabric/core/chaincode/shim/ext/cid" // import for Client Identity
+	pb "vendor/github.com/hyperledger/fabric/protos/peer"              // import for peer response
 )
 
 //Logger for Logging
